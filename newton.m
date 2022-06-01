@@ -1,3 +1,5 @@
+%considering a function f(x) = exp(x)-tan(x), f'(x)= exp(x)-sec^2(x)
+
 clc; clear all;
 
 x(1) = -4; %initial guess
