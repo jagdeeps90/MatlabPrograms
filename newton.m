@@ -11,7 +11,7 @@ for k=1:1000
 
     fc = exp(x(k+1))-tan(x(k+1));
 
-    if abs(fc)<10^(-5)
+    if abs(fc)<TOL
 	break
     end
 fprintf('%3i   %11.6f    %11.6f\n',k,x(k+1),fc);
